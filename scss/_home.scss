@@ -40,15 +40,16 @@
                 justify-content: center;
                 flex-direction: column;
                 position: relative;
+                background-color: #444343;
                 .btn-social-bg {
                     transition: all 0.3s ease-in-out;
                     position: absolute;
-                    background-color: #444343;
                     width: 16rem;
                     height: 9rem;
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    filter: grayscale(0%);
                     .btn-social-logo {
                         filter: grayscale(0%);
                         width: 80%;
@@ -57,13 +58,13 @@
                         filter: grayscale(100%);
                     }
                 }
-                .btn-social-bg:hover {
-                    transition: all 0.3s ease-in-out;
-                    background-image: url('../img/yt-bg.gif');
-                }
             }
             .btn-social:hover {
                 transform: scale(1.1);
+            }
+            #yt-social:hover {
+                background: url('../img/yt-bg.gif') center center no-repeat;
+                background-size: cover;
             }
         }
     }
