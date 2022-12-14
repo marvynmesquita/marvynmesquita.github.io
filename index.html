@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <img src="img/dev.png" alt="">
-    <h1 class="ola">Olá, mundo!</h1>
+    <section class="s-profile">
+        <div class="profile-pic">
+            <img src="img/profile.jpg" data-aos="fade-right">
+        </div>
+        <div class="profile-desc" data-aos="fade-left">
+            <h1>Marvyn Mesquita</h1>
+            <p>Estágiario de front-end, graduando em engenharia de software, músico e designer</p>
+            <div class="social">
+                <a href="https://youtube.com/marvynmesquita" class="btn-social" id="social-yt">
+                    <div class="btn-social-bg">
+                        <img src="img/yt.png" alt="" class="btn-social-logo">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
