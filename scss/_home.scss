@@ -1,0 +1,11 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .ola {
+        margin-top: 1rem;
+        animation: show-in 2s infinite;
+    }
+}
