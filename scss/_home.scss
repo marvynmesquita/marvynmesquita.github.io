@@ -28,7 +28,7 @@
         }
         .social {
             display: grid;
-            justify-content: end;
+            align-items: center;
             margin-right: 5rem;
             margin-top: 5rem;
             grid-template-columns: repeat(5, 1fr);
