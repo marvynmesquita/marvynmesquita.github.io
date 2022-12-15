@@ -31,6 +31,9 @@
             font-weight: 600;
             font-size: 10rem;
             text-align: right;
+            @media {max-width: 515px} {
+                font-size: 6rem;
+            }
         }
         p {
             font-weight: 500;
