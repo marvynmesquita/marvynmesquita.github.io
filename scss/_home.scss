@@ -5,16 +5,20 @@
         margin: 0;
     }
     .profile-pic {
-        position: relative;
+        position: fixed;
         height: 100%;
         min-height: 61.7rem;
         left: 3%;
+        img {
+            width: 60rem;
+            }
         @media(max-width: 1440px) {
             left: 0;
         }
         @media(max-width: 600px) {
             position: fixed;
             margin-left: 0;
+            left: 0;
         }
     }
     .profile-desc {
@@ -22,13 +26,14 @@
         top: 0;
         left: 1%;
         width: 90%;
-        height: 100%;
+        height: auto;
         min-height: 61.7rem;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         background: rgb(2,0,36);
         background: linear-gradient(103deg, rgba(2,0,36,0) 0%, rgba(38,38,38,0.7763480392156863) 27%, rgba(38,38,38,1) 30%);
+        background-size: cover;
         h1 {
             margin-top: 5rem;
             margin-right: 5rem;
@@ -36,7 +41,7 @@
             font-size: 10rem;
             text-align: right;
             @media (max-width: 600px) {
-                font-size: 8rem;
+                font-size: 6rem;
                 margin-right: 2rem;
             }
         }
@@ -158,9 +163,5 @@
         @media (max-width: 820px) {
             background: linear-gradient(103deg, rgba(2, 0, 36, 0) 0%, rgba(38, 38, 38, 0.7763480392) 37%, rgb(38, 38, 38) 40%);
         }
-        @media (max-width: 600px) {
-            padding-bottom: 500%;
-        }
     }
-
 }
