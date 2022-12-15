@@ -1,14 +1,23 @@
 .s-profile {
+    margin: 0 5%;
     display: flex;
+    @media(max-width:1440px) {
+        margin: 0;
+    }
     .profile-pic {
         position: relative;
         height: 100%;
+        min-height: 61.7rem;
+        left: 3%;
+        @media(max-width: 1440px) {
+            left: 0;
+        }
     }
     .profile-desc {
         position: absolute;
         top: 0;
-        left: 0;
-        width: 100%;
+        left: 1%;
+        width: 90%;
         height: 100%;
         min-height: 61.7rem;
         display: flex;
@@ -107,6 +116,11 @@
                 background: url('../img/doa-bg.gif') center center no-repeat;
                 background-size: cover;
             }
+        }
+        @media (max-width: 1440px) {
+            margin: 0;
+            left: 0;
+            width: 100%;
         }
     }
 
