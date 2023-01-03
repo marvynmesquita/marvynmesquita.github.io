@@ -155,6 +155,74 @@
                 grid-template-columns: repeat(1, 1fr);
                 grid-template-rows: repeat(10, 1fr);
                 width: 100%;
+                .btn-social {
+                    &.active {
+                        transform: scale(1.1);
+                        .btn-social-logo {
+                            filter: grayscale(100%);
+                        }
+                    }
+                }
+                #yt-social {
+                    &.active {
+                        background: url('../img/yt-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #spotify-social {
+                    &.active {
+                        background: url('../img/spotify-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #dn-social {
+                    &.active {
+                        background: url('../img/dn-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #fm-social {
+                    &.active {
+                        background: url('../img/fm-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #cca-social {
+                    &.active {
+                        background: url('../img/cca-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #nc-social {
+                    &.active {
+                        background: url('../img/nc-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #kato-social {
+                    &.active {
+                        background: url('../img/kato-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #gow-social {
+                    &.active {
+                        background: url('../img/gow-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #blizz-social {
+                    &.active {
+                        background: url('../img/blizz-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
+                #zelda-social {
+                    &.active {
+                        background: url('../img/zelda-bg.gif') center center no-repeat;
+                        background-size: cover;
+                    }
+                }
             }
         }
         @media (max-width: 1440px) {
