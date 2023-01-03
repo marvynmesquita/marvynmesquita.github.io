@@ -134,7 +134,7 @@ document.addEventListener('scroll', function () {
 
 const zelda = document.querySelector('#zelda-social');
 document.addEventListener('scroll', function () {
-    if (isInViewport(blizz) === true) {
+    if (isInViewport(zelda) === true) {
         zelda.classList.add('active');
     }
     else {
