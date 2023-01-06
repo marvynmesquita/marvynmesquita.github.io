@@ -144,3 +144,16 @@ document.addEventListener('scroll', function () {
 }, {
     passive: true
 });
+
+const contato = document.querySelector('#contato');
+document.addEventListener('scroll', function () {
+    if (isInViewport(contato) === true) {
+        contato.classList.add('active');
+    }
+    else {
+        contato.classList.remove('active');
+    }
+
+}, {
+    passive: true
+});
